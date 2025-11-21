@@ -21,8 +21,31 @@ export default async function PricingPage() {
       <div>
         <h1 className="text-2xl font-medium">Pricing Plans</h1>
         <p className="text-muted-foreground mt-2">
-          Choose the perfect plan for your needs
+          Choose the perfect plan for your form builder needs
         </p>
+      </div>
+
+      <div className="grid md:grid-cols-2 gap-6 my-8 p-6 bg-muted/30 rounded-lg">
+        <div>
+          <h3 className="font-semibold mb-3">Free Plan</h3>
+          <ul className="space-y-2 text-sm text-muted-foreground">
+            <li>✓ 1 form</li>
+            <li>✓ 50 submissions per month</li>
+            <li>✓ All field types</li>
+            <li>✓ CSV export</li>
+            <li>✗ Email notifications</li>
+          </ul>
+        </div>
+        <div>
+          <h3 className="font-semibold mb-3">Pro Plan - £9/month</h3>
+          <ul className="space-y-2 text-sm text-muted-foreground">
+            <li>✓ Unlimited forms</li>
+            <li>✓ Unlimited submissions</li>
+            <li>✓ All field types</li>
+            <li>✓ CSV export</li>
+            <li>✓ Email notifications</li>
+          </ul>
+        </div>
       </div>
 
       <PricingContent

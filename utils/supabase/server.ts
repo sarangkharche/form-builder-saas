@@ -27,3 +27,6 @@ export async function createSupabaseClient() {
     }
   );
 }
+
+// Export as createClient for backwards compatibility
+export const createClient = createSupabaseClient;

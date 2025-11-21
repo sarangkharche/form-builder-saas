@@ -21,30 +21,25 @@ export default function Home() {
           </a>
         </div>
         <p className="text-3xl lg:text-4xl !leading-tight mt-4">
-          Build software faster with{" "}
-          <a
-            href="https://update.dev/?utm_source=create-update-app&utm_medium=template&utm_term=nextjs"
-            target="_blank"
-            className="font-bold hover:underline"
-            rel="noreferrer"
-          >
-            Update
-          </a>{" "}
-          and{" "}
-          <a
-            href="https://nextjs.org/"
-            target="_blank"
-            className="font-bold hover:underline"
-            rel="noreferrer"
-          >
-            Next.js
-          </a>
+          Create Beautiful Forms in Minutes
         </p>
-        <p className="text-muted-foreground mt-4">
-          To see your account, plans, and more, sign in or sign up to gain
-          access to the protected page. Make sure to set your .env file before
-          signing in.
+        <p className="text-xl text-muted-foreground mt-4">
+          Simple form builder for small businesses. Create contact forms, surveys, and lead capture forms with ease.
         </p>
+        <div className="grid grid-cols-3 gap-4 mt-8 text-center">
+          <div className="border rounded-lg p-4">
+            <p className="text-2xl font-bold">1 min</p>
+            <p className="text-sm text-muted-foreground">Setup time</p>
+          </div>
+          <div className="border rounded-lg p-4">
+            <p className="text-2xl font-bold">£9/mo</p>
+            <p className="text-sm text-muted-foreground">Pro plan</p>
+          </div>
+          <div className="border rounded-lg p-4">
+            <p className="text-2xl font-bold">∞</p>
+            <p className="text-sm text-muted-foreground">Submissions</p>
+          </div>
+        </div>
         <div className="flex gap-[8px] mt-4">
           <Button asChild className="mt-4 w-fit">
             <Link href="/sign-in">Sign in</Link>

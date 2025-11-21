@@ -1,0 +1,28 @@
+{
+  "buildCommand": "npm run build",
+  "devCommand": "npm run dev",
+  "installCommand": "npm install",
+  "framework": "nextjs",
+  "env": {
+    "NEXT_PUBLIC_SUPABASE_URL": {
+      "type": "string",
+      "description": "Supabase project URL from https://app.supabase.com/project/_/settings/api"
+    },
+    "NEXT_PUBLIC_SUPABASE_ANON_KEY": {
+      "type": "string",
+      "description": "Supabase anon key from https://app.supabase.com/project/_/settings/api"
+    },
+    "NEXT_PUBLIC_UPDATE_PUBLISHABLE_KEY": {
+      "type": "string",
+      "description": "Update.dev publishable key from https://update.dev/dashboard"
+    },
+    "RESEND_API_KEY": {
+      "type": "string",
+      "description": "Resend API key (optional - for email notifications)"
+    },
+    "RESEND_FROM_EMAIL": {
+      "type": "string",
+      "description": "Email address for sending notifications (optional)"
+    }
+  }
+}

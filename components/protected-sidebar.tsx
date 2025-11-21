@@ -14,17 +14,16 @@ export default async function ProtectedSidebar() {
           href: "/",
         },
         {
+          label: "Forms",
+          href: "/forms",
+        },
+        {
           label: "Pricing",
           href: "/pricing",
         },
         {
           label: "Subscription",
           href: "/subscription",
-        },
-        {
-          label: "Paid Content",
-          href: "/paid-content",
-          disabled: data != null && !data.hasAccess,
         },
       ]}
     />
